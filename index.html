@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Math 4 Kids - Jason Chuwuebuka</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <header>
+         <section class="container">
+            <h1>MATHS4KIDS</h1>
+            <nav>
+               <ul>
+                  <li class="current_li">Add</li>
+                  <li class="pc">subtract</li>
+                  <li class="pc">Multiply</li>
+               </ul>
+            </nav>
+         </section>
+      </header>
+
+      <section class="wrapper">
+         <div class="question_box">
+            <h1 id="num1"></h1>
+            <h1 id="sign">+</h1>
+            <h1 id="num2"></h1>
+            <h1 id="equal_to">=</h1>
+            <h1 id="question_mark">?</h1>
+         </div>
+
+         <div class="option_box">
+            <h1 class="opt_box" id="answer_num"></h1>
+            <h1 class="opt_box" id="dummy1"></h1>
+            <h1 class="opt_box" id="dummy2"></h1>
+         </div>
+
+         <div id="scoreboard">
+            <h2>score: <span id="record"></span>pts</h2>
+         </div>
+      </section>
+
+      <section id="scores">
+         <h2 id="scorePoint"></h2>
+      </section>
+
+      <audio id="error">
+         <source
+            src="https://cdn.pixabay.com/download/audio/2022/11/21/audio_136661e554.mp3?filename=error-126627.mp3"
+         />
+      </audio>
+      <audio id="correct">
+         <source
+            src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_c8c8a73467.mp3?filename=correct-2-46134.mp3"
+         />
+      </audio>
+
+      <script src="js/main.js"></script>
+   </body>
+</html>
